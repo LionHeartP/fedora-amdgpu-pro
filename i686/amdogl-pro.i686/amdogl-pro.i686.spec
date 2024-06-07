@@ -1,23 +1,23 @@
 %define _build_id_links none
 
 # global info
-%global repo 5.7.2
-%global major 23.30
-%global minor 1684442
+%global repo 6.0.3
+%global major 23.40
+%global minor 1741713
 # pkg info
-%global amf 1.4.32
+%global amf 1.4.33
 %global enc 1.0
-%global amdvlk 2023.Q4.1
+%global amdvlk 2024.Q2.2
 # drm info
-%global drm 2.4.115.50702-1683306
-%global amdgpu 1.0.0.50702-1683306
+%global drm 2.4.116.60003-1739731
+%global amdgpu 1.0.0.60003-1739731
 # firmware info
-%global firmware_rev 6.2.4
-%global firmware_maj 50702
-%global firmware_min 1683306
+%global firmware_rev 6.3.6
+%global firmware_maj 60003
+%global firmware_min 1739731
 %global _firmwarepath	/usr/lib/firmware
 # Distro info
-%global fedora 39
+%global fedora 40
 %global ubuntu 22.04
 
 Name:     amdogl-pro

@@ -19,7 +19,7 @@ fi
 sudo dnf -y install wget cpio mock pykickstart fedpkg libvirt fedora-packager rpmdevtools
 
 # turn selinux off if it's enabled
-sudo setenforce 0
+# sudo setenforce 0
 
 # make a destination folder for our packages
 mkdir -p packages
@@ -62,5 +62,5 @@ mv packages/i686/* packages/ || echo 'not a 32 bit package , this is ok!'
 
 
 # re-enable selinux if needed
-sudo setenforce 1
+# sudo setenforce 1
 
